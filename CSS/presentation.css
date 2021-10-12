@@ -1,0 +1,36 @@
+.presentation {
+  margin: 5rem 1rem 2rem 1rem;
+}
+
+.title {
+  color: var(--veryDarkMagenta);
+  font-size: 2rem;
+  line-height: 2rem;
+  text-align: center;
+}
+
+.sub__title {
+  color: var(--darkGrayishMagenta);
+  font-size: .9rem;
+  font-weight: 500;
+  line-height: 1.55rem;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .presentation {
+    grid-area: presentation;
+    margin: 1.5rem 0;
+    max-width: 28rem;
+  }
+
+  .title {
+    text-align: left;
+    font-size: 3rem;
+    line-height: 2.8rem;
+  }
+
+  .sub__title {
+    text-align: left;
+  }
+}

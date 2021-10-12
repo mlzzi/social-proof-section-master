@@ -3,59 +3,97 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
 
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./images/favicon-32x32.png"
-    />
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/reset.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/presentation.css">
+    <link rel="stylesheet" href="./CSS/rating.css">
+    <link rel="stylesheet" href="./CSS/profiles.css">
 
     <title>Frontend Mentor | Social proof section</title>
 
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
   </head>
   <body>
-    10,000+ of our users love our products.
+    <main class="container">
+      <section class="presentation">
+        <h1 class="title">10,000+ of our users love our products.</h1>
+        
+        <p class="sub__title">We only provide great products combined with excellent customer service.
+        See what our satisfied customers are saying about our services.</p>
+      </section>
+      <section class="rating">
+        <div class="rating__box">
+          <div class="stars">
+            <img src="./images/icon-star.svg" alt="">
+            <img src="./images/icon-star.svg" alt="">
+            <img src="./images/icon-star.svg" alt="">
+            <img src="./images/icon-star.svg" alt="">
+            <img src="./images/icon-star.svg" alt="">
+          </div>
+          <h2 class="rating__text">Rated 5 Stars in Reviews</h2>
+        </div>
 
-    We only provide great products combined with excellent customer service.
-    See what our satisfied customers are saying about our services.
-    
-    Rated 5 Stars in Reviews
-    Rated 5 Stars in Report Guru
-    Rated 5 Stars in BestTech
-    
-    Colton Smith 
-    Verified Buyer
-    "We needed the same printed design as the one we had ordered a week prior.
-    Not only did they find the original order, but we also received it in time.
-    Excellent!"
-    
-    Irene Roberts 
-    Verified Buyer
-    "Customer service is always excellent and very quick turn around. Completely
-    delighted with the simplicity of the purchase and the speed of delivery."
-    
-    Anne Wallace 
-    Verified Buyer
-    "Put an order with this company and can only praise them for the very high
-    standard. Will definitely use them again and recommend them to everyone!"
+        <div class="rating__box guru">
+          <div class="stars">
+            <img src="./images/icon-star.svg" alt="">
+            <img src="./images/icon-star.svg" alt="">
+            <img src="./images/icon-star.svg" alt="">
+            <img src="./images/icon-star.svg" alt="">
+            <img src="./images/icon-star.svg" alt="">
+          </div>
+          <h2 class="rating__text">Rated 5 Stars in Report Guru</h2>
+        </div>
+
+        <div class="rating__box besttech">
+          <div class="stars">
+            <img src="./images/icon-star.svg" alt="">
+            <img src="./images/icon-star.svg" alt="">
+            <img src="./images/icon-star.svg" alt="">
+            <img src="./images/icon-star.svg" alt="">
+            <img src="./images/icon-star.svg" alt="">
+          </div>
+          <h2 class="rating__text">Rated 5 Stars in BestTech</h2>
+        </div>
+      </section>
+      
+      <section class="profiles">
+        <div class="profile colton">
+          <div class="profile__info">
+            <img src="./images/image-colton.jpg" alt="" class="profile__image">
+            <h3 class="profile__name">Colton Smith<br><span>Verified Buyer</span></h3>
+          </div>
+          <p class="profile__text">"We needed the same printed design as the one we had ordered a week prior.
+            Not only did they find the original order, but we also received it in time.
+            Excellent!"</p>
+          </div>
+        
+        <div class="profile irene">
+          <div class="profile__info">
+            <img src="./images/image-irene.jpg" alt="" class="profile__image">
+            <h3 class="profile__name">Irene Roberts<br><span>Verified Buyer</span></h3>
+          </div>
+          <p class="profile__text">"Customer service is always excellent and very quick turn around. Completely
+            delighted with the simplicity of the purchase and the speed of delivery."</p>
+          </div>
+        
+        <div class="profile anne">
+          <div class="profile__info">
+            <img src="./images/image-anne.jpg" alt="" class="profile__image">
+            <h3 class="profile__name">Anne Wallace<br><span>Verified Buyer</span></h3>
+          </div>
+          <p class="profile__text">"Put an order with this company and can only praise them for the very high
+            standard. Will definitely use them again and recommend them to everyone!"</p>
+          </div>
+      </section>
+
+    </main>
 
     <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
+      Challenge by<a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="https://www.linkedin.com/in/muriloluzzi/" target="_blank">Murilo Luzzi</a>.
     </div>
   </body>
 </html>

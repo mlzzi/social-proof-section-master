@@ -1,0 +1,49 @@
+.rating {
+  margin: 0 1rem;
+}
+
+.rating__box {
+  align-items: center;
+  background-color: var(--lightGrayishMagenta);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  height: 4rem;
+  margin: 1rem 0;
+  padding: 1rem 0;
+}
+
+.rating__text {
+  color: var(--veryDarkMagenta);
+  font-size: .8rem;
+}
+
+@media screen and (min-width: 768px) {
+  .rating {
+    grid-area: rating;
+  }
+
+  .rating__box {
+    flex-direction: row;
+    max-width: 28.5rem;
+  }
+
+  .rating__text {
+    margin-left: 1.5rem;
+  }
+
+  .stars {
+    margin-left: 1.5rem;
+    min-width: 6.3rem;
+  }
+
+  .guru {
+    position: relative;
+    left: 2.5rem;
+  }
+
+  .besttech {
+    position: relative;
+    left: 5rem;
+  }
+}

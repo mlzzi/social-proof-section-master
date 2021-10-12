@@ -21,11 +21,12 @@
 @media screen and (min-width: 768px) {
   .rating {
     grid-area: rating;
+    margin-left: 5rem;
+    margin-right: 0;
   }
 
   .rating__box {
     flex-direction: row;
-    max-width: 28.5rem;
   }
 
   .rating__text {
@@ -37,13 +38,13 @@
     min-width: 6.3rem;
   }
 
-  .guru {
+  .reviews {
     position: relative;
-    left: 2.5rem;
+    left: -5rem;
   }
 
-  .besttech {
+  .guru {
     position: relative;
-    left: 5rem;
+    left: -2.5rem;
   }
 }

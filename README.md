@@ -49,6 +49,7 @@ I've applied the knoledges that I've been learning from previously challenges. I
 ### Continued development
 
 Next step is to continue with the challenges, learn and apply Javascript and in the future is to learn libraries and frameworks.
+
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
+- Linkedin - https://www.linkedin.com/in/muriloluzzi/

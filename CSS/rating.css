@@ -10,7 +10,7 @@
   flex-direction: column;
   height: 4rem;
   margin: 1rem 0;
-  padding: 1rem 0;
+  padding: .5rem 0;
 }
 
 .rating__text {
@@ -18,7 +18,7 @@
   font-size: .8rem;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 906px) {
   .rating {
     grid-area: rating;
     margin-left: 5rem;
